@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test":"DATABASE_URL=postgres://localhost/circle_test ./node_modules/mocha/bin/mocha --recursive",
+    "test":"DATABASE_URL=postgres://localhost/circle_test ./node_modules/mocha/bin/mocha --recursive --exit",
     "test:dev:server": "nodemon ./node_modules/mocha/bin/mocha --recursive"
   },
   "keywords": [],
